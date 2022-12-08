@@ -1,7 +1,7 @@
 package lab8thDec;
 import java.util.ArrayList;
 import java.util.List;
-//Write a Java program to update specific array element by given element.
+//Write a Java program to extract a portion of an array list.
 public class ExtractArrayList {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,6 +17,6 @@ public class ExtractArrayList {
 		    System.out.println("New List one: " + s1);
 		  }}
 
-o/p
-[Red, Green, Orange, White, Black]
-[Red, Green, Yellow, White, Black]
+output:
+Original one: [RED, GREEN, ORANGE, WHITE, BLACK]
+New List one: [RED, GREEN, ORANGE]
