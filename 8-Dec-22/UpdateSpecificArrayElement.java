@@ -1,6 +1,6 @@
 package lab8thDec;
 import java.util.*;
-
+//Write a Java program to update specific array element by given element.
 public class UpdateSpecificArrayElement {
 	public static void main(String[] args) {//MAIN METHOD
 		// TODO Auto-generated method stub
@@ -16,3 +16,6 @@ public class UpdateSpecificArrayElement {
 		  clr.set(2, "Yellow");
 		  System.out.println(clr);
 	}}
+output:
+[Red, Green, Orange, White, Black]
+[Red, Green, Yellow, White, Black]
